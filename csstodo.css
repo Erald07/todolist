@@ -1,0 +1,85 @@
+.container{
+    background-color: gray;
+    border-radius: 30px;
+}
+#forms{
+    margin-top:100 ;
+    color: white;
+}
+.btn.btn-primary{
+    background-color: black;
+    border-radius: 30px;
+    margin: 10px;
+}
+body{
+    background-color: rgb(84, 165, 200) !important; 
+}
+.form-label{
+    margin: 10px;
+}
+.listaesherbimeve{
+    background-color: gray;
+    margin-top: 100px;
+    color: white;
+    border-radius: 30px;
+    
+}
+.listaesherbimeve h1 ,h5{
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 15px;
+}
+.shto{
+    position: relative;
+    margin: auto;
+    margin-left: 47%;
+}
+#button1 {
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: rgb(61, 52, 52);
+}
+table, th, td {
+    border:1px solid black;
+  }
+  .table h5{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+  }
+  .table table{
+    width: 80%;
+    margin-left: 140px;
+    background-color: gray;
+  }
+  #sherbimi1{
+    width: 50%;
+    margin-left: 10px;
+  }
+  #sasia1{
+    width: 50%;
+    margin-left: 96px;
+  }
+  #buttondelete{
+    margin-left:47%;
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: rgb(42, 38, 38);
+    border-radius: 20px;
+  }
+  .table-1 tr{
+    width: 80%;
+    margin: auto;
+    padding: auto;
+    height: 70px;
+  }
+  .table-1 th{
+    width:100px;
+    height: auto;
+  }
+  
