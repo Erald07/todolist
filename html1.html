@@ -32,6 +32,52 @@
         </table> -->
         <table class="table table-striped table-dark">
             <thead>
+                <div class="container">
+    <div class="listaesherbimeve">
+    <h1 style="color: rgb(179, 179, 212);">To do List</h1>  
+    <h5> Per te shtuar nje task kliko me poshte</h5>
+    </div>
+    </div>
+    <div class="shto">
+        <a id="button1" href="html2.html"><button id="button1">Add</button></a>
+        </div>
+        <div class="table">
+        <h5 >ketu shfaqet lista juaj<i class="fa fa-pencil" aria-hidden="true"></i></h5>
+        <!-- <table>    
+            <tr>
+            <th style="width:13.5%">titulli:</th>
+            <th>Id:</th>
+            <th>Data:</th>
+            <th>Ora:</th>
+            <th>edit</th>
+            <th>confirm</th>
+            <th>delete</th>
+         </tr>
+        </table> -->
+        <table class="table table-striped table-dark">
+            <thead>
+              <tr>
+                <th scope="col">Titulli:</th>
+                <th scope="col">ID:</th>
+                <th scope="col">Data:</th>
+                <th scope="col">Ora:</th>
+                <th scope="col">Edit:</th>
+                <th scope="col">Confirm:</th>
+                <th scope="col">Delete:</th>
+              </tr>
+            </thead>
+          </table>  
+        <table style="width:33%">
+              <tr>
+              <p id="afisho"></p>
+            </tr>
+           </table>
+        </div>     
+
+        <button id="buttondelete" onclick="deletelocalstorage()">delete </button>
+        <script src="javascripttodo.js"></script>
+    </body>
+    </html>
               <tr>
                 <th scope="col">Titulli:</th>
                 <th scope="col">ID:</th>
